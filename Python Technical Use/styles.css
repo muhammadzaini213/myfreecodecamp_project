@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#navbar{
+    height: auto; width: 100%;
+    text-align: center;
+}
+
+.main-section{
+    width: 100%;
+    height: auto;
+    
+}
+
+#navbar-header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+header{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+@media screen and (orientation: landscape) {
+    body {
+        flex-direction: row; /* Change to horizontal stacking */
+        position: absolute;
+        top: 100vh;
+
+    }
+
+    #navbar{
+        height: 100%; width: 30%;
+        position: absolute;
+        left: 0;
+        text-align: center;
+        overflow-y: scroll;
+    }
+
+    #main-doc{
+        overflow-y: scroll;
+        position: relative;
+        margin-left:35%;
+        max-height: 100vh;
+    }
+    .main-section{
+        width: 100%;
+        height: auto;
+    }
+}
+

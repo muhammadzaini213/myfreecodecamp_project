@@ -1,0 +1,64 @@
+body{
+    color: white;
+}
+#title {
+    font-family: "Poppins";
+    font-weight: bolder;
+    text-align: center;
+    color: #1c2121;
+}
+
+#description {
+    margin-top: 0.5rem;
+    color: #1c2121;
+    font-family: "Poppins";
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.4;
+}
+
+
+
+.form-group{
+    font-size: 1.1rem;
+    font-family: "Poppins";
+    font-weight: bold;
+    width: 100%;
+    margin: auto;
+}
+
+.form-input{
+    display: block; 
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+.form-control{
+    display: block; 
+
+    width: 100%;
+    margin: auto;
+}
+
+.textarea-input{
+    width: 100%;
+    font-size: medium;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+.submit-button{
+    width: 100%;
+    font-weight: bold;
+    font-size: large;
+    font-family: "Poppins";
+
+}
+#survey-form{
+    background-color: #1c2120;
+    display: flexbox;
+    border: solid 1px black; padding: 2px
+}
+

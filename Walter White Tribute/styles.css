@@ -1,0 +1,31 @@
+body{
+    font-family: "Poppins";
+    background-color: gray;
+    color: white;
+}
+#title{
+    text-align: center;
+    
+    margin: 0;
+}
+
+#aka{
+    text-align: center;
+    margin: 0;
+}
+
+#img-div{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#img-caption{
+    margin: 0;
+}
+
+#image{
+    margin: 0;
+   max-width: 100%;
+   display: block; 
+   height: auto;
+}

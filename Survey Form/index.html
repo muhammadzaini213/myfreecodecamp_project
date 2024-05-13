@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<link>
+<title>Student Talent Survey</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+</link>
+<link href=’https://fonts.googleapis.com/css?family=Sofia’ rel=’stylesheet’ />
+
+
+<body>
+    <h1 id="title">Student Talent Survey</h1>
+    <p id="description">We'll help to find your best skills and future career</p>
+    <hr width="70%">
+
+    <form id="survey-form">
+        <div class="form-group">
+            <label id="name-label">Name</label>
+            <br>
+            <input type="text" id="name" class="form-input" placeholder="Enter your name" required>
+
+
+        </div>
+
+        <div class="form-group">
+            <label id="email-label">Email</label>
+            <br>
+            <input type="email" id="email" class="form-input" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+            <label id="number-label">Age</label>
+            <br>
+            <input type="number" id="number" class="form-input" placeholder="Enter your age" max="18" min="6" required>
+        </div>
+
+        <div class="form-group">
+            <label id="edu-desc">Current School</label>
+            <br>
+            <select id="dropdown" class="form-control" required>
+                <option value="Elementary School">Elementary School</option>
+                <option value="Junior Highschool">Junior Highschool</option>
+                <option value="Senior Highschool">Senior Highschool</option>
+            </select>
+        </div>
+
+
+        <div class="form-group" aria-required="true">
+            <label>Please check all skills you interested on:</label>
+            <br>
+
+            <label><input name="Art" value="Art" type="checkbox" class="checkbox-input">Art</label>
+            <br>
+            <label><input name="Music" value="Music" type="checkbox" class="checkbox-input">Music</label>
+            <br>
+            <label><input name="Sports" value="Sports" type="checkbox" class="checkbox-input">Sports</label>
+            <br>
+            <label><input name="Math" value="Math" type="checkbox" class="checkbox-input">Math</label>
+            <br>
+            <label><input name="Dancing" value="Dancing" type="checkbox" class="checkbox-input">Dancing</label>
+            <br>
+            <label><input name="Programming" value="Programming" type="checkbox"
+                    class="checkbox-input">Programming</label>
+            <br>
+            <label><input name="Math" value="Math" type="checkbox" class="checkbox-input">Math</label>
+            <br>
+            <label><input name="Leadership" value="Leadership" type="checkbox" class="checkbox-input">Leadership</label>
+            <br>
+            <label><input name="Storytelling" value="Storytelling" type="checkbox"
+                    class="checkbox-input">Storytelling</label>
+
+
+        </div>
+        <br>
+        <div class="form-group" aria-required="true">
+            <label>Where did you know about our survey?</label>
+            <br>
+
+
+            <label name="school">
+                <input value="School" name="source" type="radio" class="input-radio">
+                School
+            </label>
+            <br>
+            <label name="friend">
+                <input value="friends" name="source" type="radio" class="input-radio">
+                Friend
+            </label>
+            <br>
+            <label name="social-media">
+                <input value="social-media" name="source" type="radio" class="input-radio">
+                Social Media
+            </label>
+            <br>
+            <label name="others">
+                <input value="others" name="source" type="radio" class="input-radio">
+                Others
+            </label>
+
+        </div>
+        <br>
+        <div class="form-group">
+            <label>Do you agree with our terms of service?</label>
+            <br>
+            <label><input name="agree-terms" value="agree-terms" type="checkbox" class="checkbox-input" required>Yes, i
+                agree with the terms of service</label>
+            <br>
+            <label><input name="agree-notification" value="agree-notification" type="checkbox" class="checkbox-input">I
+                want to receive email notification about Student Talent Survey, including courses and
+                webinar</label>
+
+        </div>
+
+        <div class="form-group">
+            <p>Write how interested you are for this survey</p>
+            <textarea id="comments" placeholder="i am ..." class="textarea-input"></textarea>
+        </div>
+
+        <div class="form-group">
+            <button id="submit" type="submit" class="submit-button">Submit</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
