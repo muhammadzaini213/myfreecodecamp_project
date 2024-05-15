@@ -1,0 +1,31 @@
+#about{
+    height: 100vh;
+    position: relative;
+    font-family: 'Radley', sans-serif;
+    font-style: italic;
+    display: flex;
+}
+
+#about-div{
+    width: 50%;
+    padding-top: 20vh;
+    padding-left: 5vw;
+}
+
+#about-title{
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+}
+
+
+#about-desc{
+    padding-top: 7vh;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+#android-img{
+    padding-top: 7vh;
+
+}

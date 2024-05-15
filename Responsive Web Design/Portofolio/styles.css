@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'BrightSunshine';
+    src: url('fonts/bright-sunshine-demo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RadleyItalic';
+    src: url('fonts/Radley-Italic.ttf') format('truetype');
+}
+
+
+.radley-regular-italic {
+    font-family: "Radley", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+body{
+    background-color: #191919;
+    color: white;
+}
+
+nav{
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    background-color: white;
+    color: #191919;
+    z-index: 9999;
+}
+
+#nav-title{
+    width: 40vw;
+    text-align: center;
+    font-family: 'BrightSunshine', sans-serif;
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+#nav-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55vw;
+    float: right;
+}
+
+.nav-link{
+    position: relative;
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-family: 'Radley', sans-serif;
+    color: #191919;
+    flex: 1;
+}
+
+
+.nav-link::after {
+    content: ''; 
+    position: absolute;
+    bottom: -3px; 
+    left: 0; 
+    width: 0;
+    height: 2px; 
+    background-color: #007bff;
+    transition: width 0.3s;
+}
+
+.nav-link.active::after {
+    width: 100%; /* Show the line when the anchor link is active */
+}
+
+.nav-link:hover {
+    color: #191919;
+}

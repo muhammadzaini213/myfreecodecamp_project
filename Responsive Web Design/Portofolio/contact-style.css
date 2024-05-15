@@ -1,0 +1,43 @@
+#contact {
+    height: 100vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Radley', sans-serif;
+    font-style: italic;
+}
+
+#contact-div {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+#find-me {
+    font-size: 5rem;
+    text-align: center;
+    margin: 0;
+}
+
+#my-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-icon {
+    max-width: 2rem;
+    max-height: 2rem;
+    margin-right: 0.5rem;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.profile-link {
+    color: white;
+    text-decoration: none;
+}

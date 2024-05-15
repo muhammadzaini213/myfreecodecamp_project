@@ -1,0 +1,143 @@
+body{
+
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+
+#main{
+    overflow-y: scroll;
+    height: 90vh;
+}
+header{
+    display: flex;
+    height: fit-content;
+    position: fixed;
+    top: 0;
+}
+#title{
+    text-align: center;
+    width: 100%;
+    margin: 0cm;
+    font-size: xx-large;
+    font-family: 'Poppins';
+    color: white;
+    align-items: center;
+}
+#img-div{
+    display: flex;
+    text-align: center;
+    width: 50%;
+    background-color: gray;
+
+}
+#header-img{
+    display: flex;
+}
+
+nav{
+    display: flexbox;
+    align-items: center;
+    width: 50%;
+}
+
+#nav-bar{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: gray;
+}
+.nav-link{
+   margin: 1rem;
+}
+main{
+    text-align: center;
+}
+
+#prices-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.price{
+    background-color: gray;
+    margin: 10vh;
+    width: calc(100vh / 3);
+    min-height: 20rem;
+}
+
+@media screen and (orientation: landscape) {
+    body{
+
+        overflow: hidden;
+        background-color: black;
+        color: white;
+    }
+    
+    #main{
+        overflow-y: scroll;
+        height: 90vh;
+    }
+    header{
+        display: flex;
+        height: fit-content;
+        position: fixed;
+    top: 0;
+    }
+    #title{
+        text-align: center;
+        width: 100%;
+        margin: 0cm;
+        font-size: xx-large;
+        font-family: 'Poppins';
+        color: white;
+        align-items: center;
+    }
+    #img-div{
+        display: flex;
+        text-align: center;
+        width: 50%;
+        background-color: gray;
+    
+    }
+    #header-img{
+        display: flex;
+    }
+    
+    nav{
+        display: flexbox;
+        align-items: center;
+        width: 50%;
+    }
+    
+    #nav-bar{
+        float: right;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        background-color: gray;
+    }
+    .nav-link{
+       margin: 1rem;
+    }
+    main{
+        text-align: center;
+    }
+    
+    #prices-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .price{
+        background-color: gray;
+        margin: 10vh;
+        width: calc(100vh / 3);
+        min-height: 20rem;
+    }
+}
