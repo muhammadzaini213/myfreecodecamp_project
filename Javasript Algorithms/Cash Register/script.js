@@ -1,11 +1,13 @@
-let price = 12;
-const change_due = document.getElementById('change-due');
-function purchase(){
-    let cash = document.getElementById('cash').value;
+let price = 19.5;
+let cid = [["PENNY", 0.5], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]];
 
-    if(cash<price){
-        alert('Customer does not have enough money to purchase the item');
-    } else if(cash==price){
-        change_due.value = "No change due - customer paid with exact cash";
-    }
+let displayChangeDue = document.getElementById('change-due');
+let cashInput = document.getElementById('cash');
+let purchaseBtn = document.getElementById('purchase-btn');
+
+function purchase(){
+  cash = cashInput.value;
+  console.log(`Cash: ${cash}`);
+
+  
 }
